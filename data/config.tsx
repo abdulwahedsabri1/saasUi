@@ -3,12 +3,13 @@ import { Link } from '@saas-ui/react'
 import { NextSeoProps } from 'next-seo'
 import { FaGithub, FaTwitter } from 'react-icons/fa'
 import { FiCheck } from 'react-icons/fi'
+
 import { Logo } from './logo'
 
 const siteConfig = {
   logo: Logo,
   seo: {
-    title: 'Saas UI',
+    title: 'saas-UI',
     description: 'The React component library for startups',
   } as NextSeoProps,
   termsUrl: '#',
@@ -41,8 +42,8 @@ const siteConfig = {
   footer: {
     copyright: (
       <>
-        Built by{' '}
-        <Link href="https://twitter.com/Pagebakers">Eelco Wiersma</Link>
+        Built by{''}
+        <Link href="https://twitter.com/Pagebakers"> AWS Developer </Link>
       </>
     ),
     links: [

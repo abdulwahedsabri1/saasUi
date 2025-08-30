@@ -458,4 +458,6 @@ const FaqSection = () => {
   return <Faq {...faq} />
 }
 
+
+
 export default Home
